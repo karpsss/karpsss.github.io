@@ -1,0 +1,32 @@
+.whole-preview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 25px;
+}
+.preview-picture {
+    width: 400px;
+    border-radius: 25px;
+    transition: box-shadow 0.15s;
+}
+.preview-picture:hover {
+    box-shadow: 0px 0px 50px black;
+}
+.preview-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+}
+.preview-text:hover{
+    cursor: pointer;
+}
+.preview-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
